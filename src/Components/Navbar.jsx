@@ -178,7 +178,7 @@ const Navbar = () => {
                 boxShadow: "none",
               }}
             >
-              Basic
+              World
             </Tab>
             <Tab
               py={4}
@@ -187,7 +187,7 @@ const Navbar = () => {
                 boxShadow: "none",
               }}
             >
-              Integrations
+              Latest
             </Tab>
             <Tab
               py={4}
@@ -196,7 +196,7 @@ const Navbar = () => {
                 boxShadow: "none",
               }}
             >
-              Notifications
+              Business
             </Tab>
             <Tab
               py={4}
@@ -205,7 +205,7 @@ const Navbar = () => {
                 boxShadow: "none",
               }}
             >
-              Usage
+              Custom
             </Tab>
             <Tab
               py={4}
@@ -215,8 +215,8 @@ const Navbar = () => {
               }}
             >
               Billing
-            </Tab>{" "}
-            <Tab isDisabled py={4} m={0}>
+            </Tab>
+            <Tab py={4} m={0}>
               Advanced
             </Tab>
           </TabList>
