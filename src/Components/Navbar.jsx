@@ -18,6 +18,8 @@ import {
   InputGroup,
   InputLeftElement,
   Input,
+  TabPanels,
+  TabPanel,
 } from "@chakra-ui/react";
 import React from "react";
 import {
@@ -28,6 +30,7 @@ import {
   AiOutlineSearch,
 } from "react-icons/ai";
 import { BsFillCameraVideoFill } from "react-icons/bs";
+import Latest from "./Latest";
 
 const Navbar = () => {
   const bg = useColorModeValue("white", "gray.800");
@@ -220,6 +223,13 @@ const Navbar = () => {
               Advanced
             </Tab>
           </TabList>
+          <TabPanels>
+            <TabPanel> <Latest /> </TabPanel>
+            <TabPanel>2</TabPanel>
+            <TabPanel>3</TabPanel>
+            <TabPanel>4</TabPanel>
+            <TabPanel>5</TabPanel>
+          </TabPanels>
         </Tabs>
         <Spacer />
         <HStack spacing={3} alignItems="center">
